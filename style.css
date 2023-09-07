@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: roboto, sans-serif
+}
+
 .full-page {
     display: flex;
     flex-direction: column;
@@ -6,7 +11,7 @@
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 0px 100px
+    padding: 0px 150px
 }
 
 #logo {
@@ -20,7 +25,7 @@
 }
 
 #header-links {
-    color: #e5e7eb;
+    color: #9fa0a3a5;
     font-size: 18px;
     display: flex;
     list-style-type: none;
@@ -32,7 +37,7 @@
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
-    padding: 50px 100px;
+    padding: 100px 150px;
     flex: 1;
 }
 
@@ -63,15 +68,117 @@
     padding: 5px 30px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
     border: 0;
 }
 
 .img-top {
     display: flex;
     flex: 1;
-    background-color: #9fa0a3;
+    background-color: #9fa0a3a3;
     justify-content: center;
     align-self: center;
-    padding: 70px 0px;
+    padding: 100px 0px;
     margin: 10px 20px
+}
+
+#content-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 50px
+}
+
+.line-of-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 150px
+}
+
+.ill-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtext {
+    display: flex;
+    max-width: 115px;
+    color: #8d8f93;
+    font-size: 12px;
+}
+
+.empty-box {
+    height: 115px;
+    width: 115px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    display: flex;
+    align-self: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 150px 150px;
+    margin: 0 50px
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    margin: 0;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    margin: -5px 0;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 50px 100px;
+    margin: 100px 150px;
+    display: flex;
+}
+
+.cta-header {
+    margin: 0
+}
+
+.cta-info {
+    font-weight: lighter;
+    margin: 0
+}
+
+.cta-button {
+    margin-left: auto;
+    border: 2px solid white;
+    align-self: center;
+    padding: 5px
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    margin-top: auto;
+    padding: 50px 0px;
+    justify-content: center;
+    font-weight: lighter;
 }
